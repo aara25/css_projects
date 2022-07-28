@@ -1,0 +1,14 @@
+.red{
+    color:red;
+}
+#image1{
+    border-style:solid;
+    margin-right:1200px;
+    padding:10px;
+    padding-left:40px;
+}
+#image2{
+     border-style:solid;
+    margin-right:1250px;
+    background-color:grey;
+}
