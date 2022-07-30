@@ -1,0 +1,243 @@
+/* Navbar */
+.navbar{
+    width:100.5%;
+    height:80px;
+    background-color:#1B2430;
+    background-size:cover;
+  }
+  .img1{
+    float:left;
+    padding-left:20px;
+    padding-top:20px;
+  }
+  .text1{
+    float:left;
+    color:white;
+    font-size:20px;
+    font-family: 'Lato', sans-serif;
+    padding-left:15px;
+    padding-top:10px;
+  }
+  .div2{
+    float:left;
+    margin-left:525px;
+    margin-top:30px;
+
+  }
+  .img2{
+    float:left;
+      color:white;
+  }
+  .text2{
+    float:left;
+    color:white;
+    padding-top:28px;
+    padding-left:10px;
+    font-size:15px;
+    font-family: 'Lato', sans-serif;
+  }
+  .div3{
+      float:left;
+      margin-left:30px;
+      margin-top:30px;
+  }
+ .div4{
+   float:left;
+   margin:10px;
+  margin-bottom:5px;
+   padding:5px;
+  }
+  .div41{
+    float:left;
+    margin-top:20px;
+    margin-left:15px;
+    background-color:#51557E;
+    border-radius:5px;
+  }
+  .text4{
+      float:left;
+      color:white;
+      padding-top:10px;
+      font-size:15px;
+      font-family: 'Lato', sans-serif;
+      padding-right:10px;
+  }
+  /* Side Div */
+  .side1{
+   float: left;
+    width:20%;
+  }
+  .side1-1{
+    margin-left:70px;
+    padding-top:30px;
+    color:#395B64;
+    font-family: 'Lato', sans-serif;
+    font-size:17px;
+  }
+  .four{
+    width:240px;
+    margin-left:70px;
+    
+  }
+  .two-1{
+    float: left;
+    width:60px;
+    height:50px;
+    background-color:#CEE5D0;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-top: 20px;
+  }
+  .two-2{
+    margin-left:15px;
+  }
+  .text5{
+    padding-left: 4px;
+  }
+  .two-3{
+    margin-top:15px;
+  }
+  .text6{
+   margin-top:170px;
+   margin-left:70px;
+   font-size: 13px;
+  }
+  .text15{
+    margin-top: 30px;
+    margin-left:70px;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color:#395B64;
+  }
+  .text16{
+    margin-top: 20px;
+    margin-left:70px;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    color:#395B64;
+    padding-right: 30px;
+  }
+  /* Center Div */
+  .center{
+    float: left;
+    margin-top:50px;
+    margin-left:50px;
+    width:50%;
+    height:500px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+  .center-text{
+    margin-right:130px;
+  }
+  .details{
+    float: left;
+  }
+  .img{
+    border-radius: 5px;
+  }
+  .text7{
+    float:left;
+    padding-left:15px;
+   font-size: 14px;
+   font-family: 'Lato', sans-serif;
+  }
+  .time{
+    float: left;
+    padding-left: 250px;
+    font-size: 14px;
+    font-size: 14px;
+   font-family: 'Lato', sans-serif;
+  }
+  .date{
+    float: left;
+    padding-left: 190px;
+    font-size: 14px;
+    font-size: 14px;
+   font-family: 'Lato', sans-serif;
+  }
+  .textual{
+    margin-top:90px;
+    height:60px;
+    width:1000px;
+  }
+  .left{
+    float: left;
+    height:70px;
+    width:5px;
+    background-color:skyblue;
+  }
+  .left1{
+    
+    margin-top:20px;
+    height: 50px;
+    width:760px;
+    background-color: #CEE5;
+    margin-bottom: 200px;
+    padding-top:20px;
+  }
+  .text8{
+    font-size: 15px;
+    color:#395B64;
+    padding-left: 20px;
+  }
+  .text9{
+    margin-top:50px;
+    font-size:15.5px;
+    font-family: 'Lato', sans-serif;
+    color:#395B64;
+  }
+  .video{
+    margin-top:60px;
+    font-family: 'Lato', sans-serif;
+  }
+  .right{
+    margin-top:100px;
+    margin-left:100px;
+    float:left;
+    width:20%;
+  }
+  .text10{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+  }
+  .text11{
+    color:#395B64;
+    padding-top: 5px;
+  }
+  .iframe{
+    margin-left:350px;
+  }
+  .authentic{
+    margin-top: 30px;
+    background-color: black;
+    height:110px;
+    width:130px;
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px ;
+  }
+  .auth-img{
+    padding-left:15px;
+    padding-top: 30px;
+  }
+  .text12{
+    margin-top: 20px;
+    background-color:whitesmoke;
+    height:110px;
+    width:130px;
+    font-family: 'Lato', sans-serif;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .text13{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 13.8px;
+  }
+  .text14{
+    padding-left: 10px;
+  }

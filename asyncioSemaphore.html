@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ayncio Semaphores and Bounded Semaphore Network</title>
+    <link rel=icon type=image/png href=https://images.tutorialedge.net/images/favicon.ico>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Montserrat:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3de6339017.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="asyncioSemaphore.css">
+  </head>
+  <body>
+    <!-- NavBar -->
+    <div class="navbar">
+      <div class="img1">
+        <img src="https://images.tutorialedge.net/images/logo.svg" alt="" height="35px" width="35px">
+      </div>
+      <div class="text1">
+        <p><b>TutorialEdge.net</b></p>
+      </div>
+      <div class="div2">
+        <i class="img2 fa-solid fa-hard-drive"></i>
+      </div>
+        <div class="text2">
+          <span>Courses</span>
+        </div>
+        <div class="div3">
+            <i class="img2 fa-solid fa-book"></i>
+        </div>
+          <div class="text2">
+            <span>Tutorials</span>
+          </div>
+          <div class="div3">
+            <i class="img2 fa-solid fa-bullseye"></i>
+          </div>
+            <div class="text2">
+              <span>Challenges</span>
+            </div>
+            <div class="div3">
+            <i class="img2 fa-solid fa-hammer"></i>
+            </div>
+              <div class="text2">
+                <span>Projects</span>
+              </div>
+              <div class="div3">
+              <i class="img2 fa-solid fa-rocket"></i>
+              </div>
+                <div class="text2">
+                  <span>Pricing</span>
+                </div>
+                <div class="div3">
+                <i class="img2 fa-solid fa-circle-play"></i>
+                </div>
+                    <div class="text2">
+                      <span>Login</span>
+                    </div>
+                    <div class="div41">
+                       <div class="div4">
+                          <i class="img2 fa-solid fa-rocket"></i>
+                       </div>
+                       <div class="text4">
+                        <span>Sign up</span>
+                       </div>
+                      </div>
+    </div>
+    <!-- Side Div -->
+    <div class="side1">
+      <div class="side1-1">
+        <p><b>Community Feedback</b></p>
+      </div>
+      <div class="four">
+          <div class="two-1">
+             <div>
+               <i class="fa-solid fa-rocket"></i>  
+             </div>
+             <div><span>0</span></div>    
+          </div>
+          <div class="two-1 two-2">
+             <div>
+                <i class="fa-solid fa-heart"></i>  
+             </div>
+             <div><span class="text5">0</span></div>
+          </div>
+         <div class="two-1 two-3">
+             <div>
+               <i class="fa-solid fa-thumbs-up"></i>  
+             </div>
+             <div><span class="text5">0</span></div>
+         </div>
+         <div class="two-1 two-3 two-2">
+             <div>
+               <i class="fa-solid fa-comment"></i>  
+             </div>
+             <div><span class="text5">0</span></div>
+         </div>
+    </div>
+    <div class="text6">
+        <br><p>Post Views:189</p>
+    </div>
+    <div class="text15">
+      <p>📚 ADVANCED</p>
+    </div>
+    <div class="text16">
+      <p>Python Method Resolution Order Tutorial</p>
+    </div>
+    <div class="text16">
+      <p>Creating Basic Python C Extensions - Tutorial</p>
+    </div>
+    <div class="text15">
+      <p>📚 AI</p>
+    </div>
+    <div class="text16">
+      <p>An Introduction to Face Recognition in Python</p>
+    </div>
+    <div class="text15">
+      <p>📚 ASYNCIO</p>
+    </div>
+    <div class="text16">
+      <p>Asyncio Semaphores and Bounded Semaphores Tutorial</p>
+    </div>
+    <div class="text16">
+      <p>Asyncio Synchronization Primitives Tutorial - Queues and Locks</p>
+    </div>
+  </div>
+  <!-- Center Div -->
+  <div class="center">
+    <div class="center-text">
+        <h1>Asyncio Semaphores and Bounded Semaphores Tutorial</h1>
+    </div>
+    <div>
+        <div class="details">
+            <img class="img" src="https://images.tutorialedge.net/authors/profile.jpeg" alt="Author" height="30px"
+            width="30px">
+            
+        </div>
+        <div>
+           <p class="text7">Elliot Forbes</p>
+        </div>
+        <div class="time">
+            <p>⏰ 2 Minutes</p>
+        </div>
+        <div class="date">
+            <p>📅 Nov 24, 2017</p>
+        </div>
+    </div>
+    <div class="textual">
+        <div class="left"></div>
+        <div class="left1">
+                <span class="text8">"This tutorial was built on top of Python 3.6."<span>
+        </div>
+    </div>
+    <div class="text9">
+        <p>In this tutorial we’ll be looking at semaphores and bounded-semaphores and how they work within the Asyncio framework.</p>
+    </div>
+    <div class="video">
+        <h3>Video Tutorial</h3>
+    </div>
+      <hr>
+      <div>
+        <iframe class="iframe" src="https://www.youtube.com/embed/uvM-JYnz1Mw?ecver=2" style=position:absolute;width:50%;height:40%;left:0 frameborder=0 gesture=media allowfullscreen></iframe>
+      </div>
+  </div>
+
+  
+  <!-- Right Side -->
+  <div class="right">
+    <div class="text10">
+        <pre><b>TABLE OF CONTENTS</b></pre>
+    </div>
+    <div class="text11">
+        <p>Video Tutorial</p>
+    </div>
+    <div style="color:#395B64">
+        <p>What are Semaphores?</p>
+    </div>
+    <div style="color:#395B64">
+        <p>Implementation</p>
+    </div>
+    <div style="color:#395B64">
+        <p>Output</p>
+    </div>
+    <div style="color:#395B64">
+        <p>Bounded Semaphores</p>
+    </div>
+    <div style="color:#395B64">
+        <p>Conclusion</p>
+       
+    </div>
+    
+    <div class="authentic">
+        <img class="auth-img" src="https://cdn4.buysellads.net/uu/1/54760/1570204565-authenticjobs-logo.png" alt="" height="40px" width="100px">
+        <div class="text12">
+          <p class="text13">Your new development career awaits.Check out the latest listings</p>
+          <p class="text14" style="font-size:8px;">ADS VIA CARBON</p>
+        </div>
+      </div>
+    
+    
+    
+  </div>
+
+  </body>
+</html>
