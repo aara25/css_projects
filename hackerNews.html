@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>
+
+        </head>
+        <style>
+            #navbar
+            {
+                background-color: #EF5B0C;
+                width: 70%;
+                height: 25px;
+                margin-left:15%;
+            }
+            #navimg
+            {
+                float: left;
+                padding: 1px;
+                margin: 1.5px;
+             
+            }
+            #nav1
+            {
+                float: left;
+                height: 20px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 22px;
+                font-weight: 1px;
+                padding-top: 2.5px;
+                padding-left: 1.5px;
+            }
+            .nav2
+            {
+                float: left;
+                height: 20px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                font-weight: 1px;
+                padding-top: 3.5px;
+                padding-left: 15px;   
+            }
+            #navend
+            {
+                float: right;
+                height: 20px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                font-weight: 1px;
+                padding-top: 3.5px;
+                padding-right: 3px;
+            }
+            #maincon
+            {
+                width: 70%;
+                height: 1000px;
+                margin-left:15%;
+                background-color:#DFE8CC;
+            }
+            #p1
+            {
+                height: 25px;
+                width:60% ;
+            }
+            #p2
+            {
+                height: 25px;
+                width:60% ;
+                margin-left: 25px;
+            }
+            #p3
+            {
+                height: 25px;
+                width:60% ;
+                margin-left: 25px;   
+            }
+            #p4
+            {
+                height: 25px;
+                width:60% ;
+                margin-left: 25px;   
+            }
+            #B
+            {
+                height: 15px;
+                width:60% ;
+            }
+            #B1
+            {
+                height: 15px;
+                width:60% ;   
+            }
+            #B2
+            {
+                height: 15px;
+                width:60% ;   
+            }
+            #B3
+            {
+                height: 15px;
+                width:60% ;  
+            }
+            #p11
+            {
+                float:left;
+                padding-top: 3px;
+
+            }
+            #p111
+            {
+                float: left;
+                padding-left: 3px;
+                padding-top: 3px;
+            }
+            #p21
+            {
+                float:left;
+                padding-top: 3px;
+
+            }
+            #p211
+            {
+                float: left;
+                padding-left: 3px;
+                padding-top: 3px;   
+            }
+            #p31
+            {
+                float:left;
+                padding-top: 3px;
+
+            }
+            #p311
+            {
+                float: left;
+                padding-left: 3px;
+                padding-top: 3px;   
+            }
+            #p41
+            {
+                float:left;
+                padding-top: 3px;
+
+            }
+            #p411
+            {
+                float: left;
+                padding-left: 3px;
+                padding-top: 3px;   
+            }
+            #b1
+            {
+                padding-left: 4px;
+                margin-left: 28px;
+                font-size: x-small;
+                font-weight: 3px;
+                color: grey;
+                float: left;
+            }
+            #b2
+            {
+                padding-left: 6px;
+                margin-left: 3.5px;
+                font-size: x-small;
+                color:grey;
+                float: left;
+            }
+            #b3
+            {
+                padding-left: 8px;  
+                margin-left: 3.5px;              
+                font-size: x-small;
+                color:grey ;
+                float: left;
+            }
+            #b4
+            {
+                padding-left: 8px;
+                margin-left: 3.5px;
+                font-size: x-small;
+                color:grey ;
+                float: left;
+            }
+            #b5
+            {
+                padding-left: 8px;
+                margin-left: 3.5px;
+                font-size: x-small;
+                color:grey;
+                float: left;
+            }
+            #b21
+            {
+                padding-left: 4px;
+                margin-left: 28px;
+                font-size: x-small;
+                font-weight: 3px;
+                color: grey;
+                float: left;
+            }
+            #b22
+            {
+                padding-left: 6px;
+                margin-left: 3.5px;
+                font-size: x-small;
+                color:grey;
+                float: left;
+            }
+            #b23
+            {
+                padding-left: 8px;  
+                margin-left: 3.5px;              
+                font-size: x-small;
+                color:grey ;
+                float: left;
+            }
+            #b24
+            {
+                padding-left: 8px;
+                margin-left: 3.5px;
+                font-size: x-small;
+                color:grey ;
+                float: left;
+            }
+            #b25
+            {
+                padding-left: 8px;
+                margin-left: 3.5px;
+                font-size: x-small;
+                color:grey;
+                float: left;
+            }
+            #b31
+            {
+                padding-left: 4px;
+                margin-left: 28px;
+                font-size: x-small;
+                font-weight: 3px;
+                color: grey;
+                float: left;
+            }
+            #b32
+            {
+                padding-left: 6px;
+                margin-left: 3.5px;
+                font-size: x-small;
+                color:grey;
+                float: left;
+            }
+            #b33
+            {
+                padding-left: 8px;  
+                margin-left: 3.5px;              
+                font-size: x-small;
+                color:grey ;
+                float: left;
+            }
+            #b34
+            {
+                padding-left: 8px;
+                margin-left: 3.5px;
+                font-size: x-small;
+                color:grey ;
+                float: left;
+            }
+            #b35
+            {
+                padding-left: 8px;
+                margin-left: 3.5px;
+                font-size: x-small;
+                color:grey;
+                float: left;
+            }
+            #b41
+            {
+                padding-left: 4px;
+                margin-left: 28px;
+                font-size: x-small;
+                font-weight: 3px;
+                color: grey;
+                float: left;
+            }
+            #b42
+            {
+                padding-left: 6px;
+                margin-left: 3.5px;
+                font-size: x-small;
+                color:grey;
+                float: left;
+            }
+            #b43
+            {
+                padding-left: 8px;  
+                margin-left: 3.5px;              
+                font-size: x-small;
+                color:grey ;
+                float: left;
+            }
+            #b44
+            {
+                padding-left: 8px;
+                margin-left: 3.5px;
+                font-size: x-small;
+                color:grey ;
+                float: left;
+            }
+            #b45
+            {
+                padding-left: 8px;
+                margin-left: 3.5px;
+                font-size: x-small;
+                color:grey;
+                float: left;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="navbar">
+            <div id="navimg">
+                <img src="https://news.ycombinator.com/y18.gif">
+            </div>
+            <div id="nav1">
+                Hacker News
+            </div>
+            <div class="nav2">
+                new |
+            </div>
+            <div class="nav2">
+                past    |
+            </div>
+            <div class="nav2">
+                comments    |
+            </div>
+            <div class="nav2">
+                ask     |
+            </div>
+            <div class="nav2">
+                show    |
+            </div>
+            <div class="nav2">
+                jobs    |
+            </div>
+            <div class="nav2">
+                submit  
+            </div>
+            <div id="navend">
+                login
+            </div>
+        </div>
+        <div id="maincon">
+            <div id="p1">
+                <div id="p11">1.<i class="fa-solid fa-caret-up"></i></div>
+           
+            <div id="p111">
+                Asus Zenfone 9
+            </div>
+            </div>
+            <div id="B">
+            <div id="b1">
+                181 points by
+            </div>
+            <div id="b2">
+                fomine3
+            </div>
+            <div id="b3">
+                4 hours ago |
+            </div>
+            <div id="b4">
+                hide    |
+            </div>
+            <div id="b5">
+                149 comments
+            </div>
+            </div>
+            <div id="p2">
+                <div id="p21">2.<i class="fa-solid fa-caret-up"></i></div>
+           
+            <div id="p211">
+                The Best iphone
+            </div>
+            </div>
+            <div id="B1">
+            <div id="b21">
+                307 points by
+            </div>
+            <div id="b22">
+                rpgpr
+            </div>
+            <div id="b23">
+                6 hours ago |
+            </div>
+            <div id="b24">
+                hide    |
+            </div>
+            <div id="b25">
+                276 comments
+            </div>
+            </div>
+            <div id="p3">
+                <div id="p31">3.<i class="fa-solid fa-caret-up"></i></div>
+           
+            <div id="p311">
+                Buttery smooth "10fps"
+            </div>
+            </div>
+            <div id="B2">
+            <div id="b31">
+                79 points by
+            </div>
+            <div id="b32">
+                lordnibbler
+            </div>
+            <div id="b33">
+                3 hours ago |
+            </div>
+            <div id="b34">
+                hide    |
+            </div>
+            <div id="b35">
+                16 comments
+            </div>
+            </div>
+            <div id="p4">
+                <div id="p41">4.<i class="fa-solid fa-caret-up"></i></div>
+           
+            <div id="p411">
+                Is the Kalman filter just a low-pass filter?
+            </div>
+            </div>
+            <div id="B3">
+            <div id="b41">
+                128 points by
+            </div>
+            <div id="b42">
+                faurosann
+            </div>
+            <div id="b43">
+                58 min ago |
+            </div>
+            <div id="b44">
+                hide    |
+            </div>
+            <div id="b45">
+                9 comments
+            </div>
+            </div>
+            <div id="p4">
+                <div id="p41">5.<i class="fa-solid fa-caret-up"></i></div>
+            <div id="p411">
+                Black Widow Pulsar Sets Mass Record (cartoonresearch.com)
+            </div>
+            </div>
+            <div id="B3">
+            <div id="b41">
+                34 points by benbreen 
+            </div>
+            <div id="b42">
+                faurosann
+            </div>
+            <div id="b43">
+                5 hours ago |
+            </div>
+            <div id="b44">
+                hide    |
+            </div>
+            <div id="b45">
+                3 comments
+            </div>
+            </div>
+            <div id="p4">
+                <div id="p41">6.<i class="fa-solid fa-caret-up"></i></div>
+            <div id="p411">
+                Tabler: Free and open source dashboard HTML/CSS framework (github.com/tabler)
+            </div>
+            </div>
+            <div id="B3">
+            <div id="b41">
+                436 points by 
+            </div>
+            <div id="b42">
+                jakearmitage
+            </div>
+            <div id="b43">
+                15 hours ago |
+            </div>
+            <div id="b44">
+                hide    |
+            </div>
+            <div id="b45">
+                78 comments
+            </div>
+            </div>
+            <div id="p4">
+                <div id="p41">7.<i class="fa-solid fa-caret-up"></i></div>
+            <div id="p411">
+                Nobody optimizes happiness (dynomight.net)
+            </div>
+            </div>
+            <div id="B3">
+            <div id="b41">
+                139 points by 
+            </div>
+            <div id="b42">
+                arunbahl
+            </div>
+            <div id="b43">
+                9 hours ago |
+            </div>
+            <div id="b44">
+                hide    |
+            </div>
+            <div id="b45">
+                117 comments
+            </div>
+            </div>
+            <div id="p4">
+                <div id="p41">8.<i class="fa-solid fa-caret-up"></i></div>
+            <div id="p411">
+                Aldous Huxley’s version of the Disney “Alice” (2020) (cartoonresearch.com)
+            </div>
+            </div>
+            <div id="B3">
+            <div id="b41">
+                34 points by
+            </div>
+            <div id="b42">
+                benbreen
+            </div>
+            <div id="b43">
+                5 hours ago |
+            </div>
+            <div id="b44">
+                hide    |
+            </div>
+            <div id="b45">
+                3 comments
+            </div>
+            </div>
+            <div id="p4">
+                <div id="p41">9.<i class="fa-solid fa-caret-up"></i></div>
+            <div id="p411">
+                	Cmacro: Lisp Macros for C (github.com/eudoxia0)
+            </div>
+            </div>
+            <div id="B3">
+            <div id="b41">
+                45 points by
+            </div>
+            <div id="b42">
+                thesephis
+            </div>
+            <div id="b43">
+                7 hours ago |
+            </div>
+            <div id="b44">
+                hide    |
+            </div>
+            <div id="b45">
+                7 comments
+            </div>
+            </div>
+            <div id="p4">
+                <div id="p41">10.<i class="fa-solid fa-caret-up"></i></div>
+            <div id="p411">
+                The Fourth Operation: What Comes After Exponentiation (ariwatch.com)
+            </div>
+            </div>
+            <div id="B3">
+            <div id="b41">
+                22 points by
+            </div>
+            <div id="b42">
+                AugusteDupin
+            </div>
+            <div id="b43">
+                5 hours ago |
+            </div>
+            <div id="b44">
+                hide    |
+            </div>
+            <div id="b45">
+                12 comments
+            </div>
+            </div>
+            <div id="p4">
+                <div id="p41">11.<i class="fa-solid fa-caret-up"></i></div>
+            <div id="p411">
+                Reference count, don't garbage collect (kevinlawler.com)
+            </div>
+            </div>
+            <div id="B3">
+            <div id="b41">
+                142 points by
+            </div>
+            <div id="b42">
+               kd
+            </div>
+            <div id="b43">
+                15 hours ago |
+            </div>
+            <div id="b44">
+                hide    |
+            </div>
+            <div id="b45">
+                233 comments
+            </div>
+            </div>
+            <div id="p4">
+                <div id="p41">12.<i class="fa-solid fa-caret-up"></i></div>
+            <div id="p411">
+                Photovoltaic Solar Panels (1905) (lowtechmagazine.com)
+            </div>
+            </div>
+            <div id="B3">
+            <div id="b41">
+                102 points by
+            </div>
+            <div id="b42">
+                chiffre01
+            </div>
+            <div id="b43">
+                11 hours ago |
+            </div>
+            <div id="b44">
+                hide    |
+            </div>
+            <div id="b45">
+                25 comments
+            </div>
+            </div>
+            <div id="p4">
+                <div id="p41">13.<i class="fa-solid fa-caret-up"></i></div>
+            <div id="p411">
+                Notebook Dataflow Debugger (Ndd) (observablehq.com)
+            </div>
+            </div>
+            <div id="B3">
+            <div id="b41">
+                13 points by
+            </div>
+            <div id="b42">
+                tlarkworthy
+            </div>
+            <div id="b43">
+                 hours ago |
+            </div>
+            <div id="b44">
+                hide    |
+            </div>
+            <div id="b45">
+                discuss
+            </div>
+            </div>
+            <div id="p4">
+                <div id="p41">14.<i class="fa-solid fa-caret-up"></i></div>
+            <div id="p411">
+Getting started with decentralized identity (nathangould.com)
+            </div>
+            </div>
+            <div id="B3">
+            <div id="b41">
+                36 points by
+            </div>
+            <div id="b42">
+                ngould
+            </div>
+            <div id="b43">
+                8 hours ago |
+            </div>
+            <div id="b44">
+                hide    |
+            </div>
+            <div id="b45">
+                37 comments
+            </div>
+            </div>
+            <div id="p4">
+                <div id="p41">15.<i class="fa-solid fa-caret-up"></i></div>
+            <div id="p411">
+                How to build an open-source business (2021) (lunasec.io)
+            </div>
+            </div>
+            <div id="B3">
+            <div id="b41">
+                27 points by 
+            </div>
+            <div id="b42">
+                freeqaz
+            </div>
+            <div id="b43">
+                6 hours ago |
+            </div>
+            <div id="b44">
+                hide    |
+            </div>
+            <div id="b45">
+                9 comments
+            </div>
+            </div>
+            <div id="p4">
+                <div id="p41">16.<i class="fa-solid fa-caret-up"></i></div>
+            <div id="p411">
+                Remote Attestation is coming back (gabrielsieben.tech)
+            </div>
+            </div>
+            <div id="B3">
+            <div id="b41">
+                226 points by 
+            </div>
+            <div id="b42">
+                gjsman-1000
+            </div>
+            <div id="b43">
+                9 hours ago |
+            </div>
+            <div id="b44">
+                hide    |
+            </div>
+            <div id="b45">
+                187 comments
+            </div>
+            </div>
+            <div id="p4">
+                <div id="p41">17.<i class="fa-solid fa-caret-up"></i></div>
+            <div id="p411">
+Build your own web framework (vercel.com)
+            </div>
+            </div>
+            <div id="B3">
+            <div id="b41">
+                170 points by 
+            </div>
+            <div id="b42">
+                jeremylevy 
+            </div>
+            <div id="b43">
+                15 hours ago |
+            </div>
+            <div id="b44">
+                hide    |
+            </div>
+            <div id="b45">
+                117 comments
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
